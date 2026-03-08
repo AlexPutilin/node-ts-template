@@ -56,3 +56,9 @@ Thumbs.db
 .vscode/*
 !.vscode/settings.json
 !.vscode/extensions.json
+
+
+# =====================
+# Other
+# =====================
+notes.txt
