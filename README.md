@@ -32,7 +32,7 @@ Create a new repository using this template on GitHub or clone it manually.
 
 ### Install dependencies
 
-```
+```bash
 npm install
 
 ```
@@ -41,7 +41,7 @@ npm install
 
 Runs the project with hot reload using `tsx`.
 
-```
+```bash
 npm run dev
 
 ```
@@ -50,14 +50,14 @@ npm run dev
 
 Compiles TypeScript into the `build` directory.
 
-```
+```bash
 npm run build
 
 ```
 
 ### Run production build
 
-```
+```bash
 npm start
 
 ```
@@ -66,7 +66,7 @@ npm start
 
 The project includes a path alias:
 
-```
+```bash
 #app/*
 
 ```
