@@ -9,9 +9,18 @@
     "outDir": "build",
     "baseUrl": ".",
     "paths": {
-      "#app/*": ["src/*"]
+      "#app/*": ["./src/*"]
     },
     "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowUnusedLabels": false,
+    "noUncheckedSideEffectImports": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowUnreachableCode": false,
+    "noImplicitOverride": true,
+    "exactOptionalPropertyTypes": true,
+    "allowJs": true,
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "build"]
