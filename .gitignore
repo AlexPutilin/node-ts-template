@@ -5,30 +5,8 @@ node_modules/
 npm-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-
-# =====================
-# Frontend build output
-# =====================
 dist/
-build/
-.web-build/
-.angular/
-.vite/
 .cache/
-
-# =====================
-# Python
-# =====================
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.egg-info/
-.eggs/
-.venv/
-venv/
-ENV/
-env/
 
 # =====================
 # Environment variables
@@ -49,14 +27,12 @@ uploads/
 .lnk
 Thumbs.db
 
-
 # =====================
 # Editor / IDE
 # =====================
 .vscode/*
 !.vscode/settings.json
 !.vscode/extensions.json
-
 
 # =====================
 # Other
