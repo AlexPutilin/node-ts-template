@@ -1,13 +1,12 @@
 {
   "compilerOptions": {
-    "target": "es2022",
-    "module": "esnext",
-    "moduleResolution": "bundler",
+    "target": "esnext",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
     "strict": true,
     "types": ["node"],
     "rootDir": "src",
-    "outDir": "build",
-    "baseUrl": ".",
+    "outDir": "dist",
     "paths": {
       "#app/*": ["./src/*"]
     },
@@ -23,5 +22,5 @@
     "allowJs": true,
   },
   "include": ["src/**/*.ts"],
-  "exclude": ["node_modules", "build"]
+  "exclude": ["node_modules", "dist"]
 }

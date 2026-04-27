@@ -4,6 +4,7 @@ Minimal **Node.js + TypeScript** template for quickly starting new backend or CL
 
 This repository is configured as a template so new projects can be created directly from it without repeating the basic setup.
 
+
 ## Features
 
 * Modern **ES Modules**
@@ -13,18 +14,7 @@ This repository is configured as a template so new projects can be created direc
 * Path alias support (`#app/*`)
 * Separate `src` and `build` directories
 
-## Project Structure
 
-```
-.
-├─ build/
-├─ node_modules/
-├─ src/
-│  └─ index.ts
-├─ .gitignore
-├─ package.json
-└─ tsconfig.json
-```
 
 ## Getting Started
 
@@ -62,6 +52,7 @@ npm start
 
 ```
 
+
 ## Path Aliases
 
 The project includes a path alias:
@@ -83,9 +74,11 @@ Configured in:
 * `tsconfig.json`
 * `package.json`
 
+
 ## Requirements
 
 * Node.js 18+
+
 
 ## License
 

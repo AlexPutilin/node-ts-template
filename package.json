@@ -2,14 +2,14 @@
   "name": "node-ts-template",
   "version": "1.0.0",
   "type": "module",
-  "main": "./build/index.js",
+  "main": "./dist/index.js",
   "imports": {
-    "#app/*": "./build/*"
+    "#app/*": "./dist/*"
   },
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "build": "tsc -p tsconfig.json",
-    "start": "node build/index.js"
+    "start": "node dist/index.js"
   },
   "keywords": [],
   "author": "Alexander Putilin",
