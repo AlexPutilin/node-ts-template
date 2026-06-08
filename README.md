@@ -12,13 +12,17 @@ This repository is configured as a template so new projects can be created direc
 * Fast development with **tsx**
 * Clean project structure
 * Path alias support (`#app/*`)
-* Separate `src` and `build` directories
+* Separate `src` and `dist` directories
 
 
 
 ## Getting Started
 
 Create a new repository using this template on GitHub or clone it manually.
+```bash
+git clone https://github.com/AlexPutilin/node-ts-template.git
+
+```
 
 ### Install dependencies
 
@@ -38,7 +42,7 @@ npm run dev
 
 ### Build
 
-Compiles TypeScript into the `build` directory.
+Compiles TypeScript into the `dist` directory.
 
 ```bash
 npm run build
